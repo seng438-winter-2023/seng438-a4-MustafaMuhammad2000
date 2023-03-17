@@ -41,10 +41,6 @@ After:
 <b> Note: Our DataUtility class had such a strong mutation score to begin with, and when looking into the surviving mutations most of which were equivalent mutants or straight up incorrect mutants. Thus we opted for increasing the mutation score as much as we could, which ended up being 4%. This is due to us having 62 working tests from the last lab, in which we were attempting to get 90% line coverage, 70% branch coverage and 60% method coverage. However we ended up overshooting and increasing the coverage to higher then expected amount, leading to a very robust and strong test suite which worked against us for this lab. Thus the rest of the work was spent on the range class. </b>
 
 
-
-
-
-
 # Analysis drawn on the effectiveness of each of the test classes
 
 Range Class:
@@ -82,13 +78,15 @@ For our Selenium test cases we first started by looking at the website in questi
 
 Assertions are used to determine whether the result received was the expected result. This ensures that the desired output of the application is maintained. Assertions are used to check if a test has passed or failed. Checkpoints are used to periodically check whether the current state of the application is correct. This also leads to the result that checkpoints ensure that the GUI elements are all functioning as intended. This would include elements such as buttons and links.
 
-# how did you test each functionaity with different test data
+# How did you test each functionaity with different test data
 
 # Discuss advantages and disadvantages of Selenium vs. Sikulix
 
 One clear advantage of Selenium is that it installs better as a browser web extension (at least if you use Google Chrome) and this makes the process much easier to begin as some development tools can get very hectic with their installations. On the other hand Sikulix was not too bad of an installation either but Selenium is clearly better in this regard. Another disadvantage of Sikulix is that the overall design makes it a lot more difficult to work with, as the graphical user interface does look fairly dated whereas Selenium is minimalist and very simple in its design which is a great thing for user-friendly activity. The ability to export to multiple different testing libraries was also extremely quick and far simpler than Sikulix. However, that doesn’t mean Sikulix is only faults as it has some advantages as well. One advantage of Sikulix that we noted during our testing was that it was overall more stable. On Selenium we had more occasions of the IDE freezing than we did using Sikulix. Another clear advantage of Sikulix is that it can automate flash objects much easier. Sikulix can also handle applications from our desktop whereas Selenium is fairly limited to just web browser applications. Sikulix can also handle multiple apps whereas on Selenium you can only have your single web browser up for testing. Overall they have their advantages and disadvantages and if testing is needed solely for web development then Selenium is a great choice and for desktop applications Sikulix is great.   
 
 # How the team work/effort was divided and managed
+
+This lab had a bit of different division of work. Originally two of us work on DataUtilities and Range testing, however since DataUtilities had such a strong score already only one of us opted to work on DataUtilities and the other three worked on improving the mutation score for the Range class. Otherwise for the selenium testing each member was responsible for their own two tests. Overall the work was fairly split amongst all 4 members. 
 
 
 # Difficulties encountered, challenges overcome, and lessons learned
